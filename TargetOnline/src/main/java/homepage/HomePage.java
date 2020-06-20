@@ -8,9 +8,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class HomePage extends CommonAPI {
-//    WebDriver driver = new ChromeDriver();
-    JavascriptExecutor jse = (JavascriptExecutor)driver;
-    jse.executeScript("window.scrollBy(0,500)");
+
+    public static void userCanScrollPage() throws InterruptedException {
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        jse.executeScript("window.scrollBy(0,1000)");
+        Thread.sleep(5000);
+        jse.executeScript("window.scrollBy(0,-1000)");
+        Thread.sleep(5000);
+    }
 
 //    @FindBy(id = "search")
 //    WebElement searchBox;

@@ -13,6 +13,10 @@ public class TestHomepage extends CommonAPI {
         String actual = driver.getCurrentUrl();
         Assert.assertEquals(expected, actual);
     }
+    @Test
+    public void userCanScrollTest() throws InterruptedException {
+        HomePage.userCanScrollPage();
+    }
 
     @Test
     public void testUserCanSearchProducts() throws InterruptedException{

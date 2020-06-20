@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5dc72359-5ed4-4ca5-a891-180a93abb0aa" name="Default Changelist" comment="" />
+    <list default="true" id="5dc72359-5ed4-4ca5-a891-180a93abb0aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/common/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/common/CommonAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TargetOnline/src/main/java/homepage/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/TargetOnline/src/main/java/homepage/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TargetOnline/src/test/java/homepageTest/TestHomepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/TargetOnline/src/test/java/homepageTest/TestHomepage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TargetOnline/target/classes/homepage/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/TargetOnline/target/classes/homepage/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TargetOnline/target/test-classes/homepageTest/TestHomepage.class" beforeDir="false" afterPath="$PROJECT_DIR$/TargetOnline/target/test-classes/homepageTest/TestHomepage.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +22,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -24,6 +35,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1dSuW4JDl1i7WZt5jsIY6AWO6fu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -31,6 +43,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Generic/src/main/java/drivers" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -42,7 +55,7 @@
       <recent name="C:\Users\samin\Desktop\FinalProject\TargetPractice\Generic\src\main\java\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestHomepage.userCanCheckTheURL">
+  <component name="RunManager" selected="TestNG.TestHomepage.userCanScrollTest">
     <configuration name="HomePage.userCanCheckTheURL" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TargetOnline" />
       <extension name="coverage">
@@ -97,23 +110,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHomepage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TargetOnline" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homepageTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="homepageTest" />
-      <option name="MAIN_CLASS_NAME" value="homepageTest.TestHomepage" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestHomepage.userCanCheckTheURL" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TargetOnline" />
       <extension name="coverage">
@@ -132,13 +128,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestHomepage.userCanScrollTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TargetOnline" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homepageTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homepageTest" />
+      <option name="MAIN_CLASS_NAME" value="homepageTest.TestHomepage" />
+      <option name="METHOD_NAME" value="userCanScrollTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestHomepage.userCanScrollTest" />
         <item itemvalue="TestNG.TestHomepage.userCanCheckTheURL" />
         <item itemvalue="TestNG.HomePage.userCanCheckTheURL" />
         <item itemvalue="TestNG.TestAccountPage.testUserCreateAccount" />
         <item itemvalue="TestNG.TestAccountPage.testUserCanSignIntoAccount" />
-        <item itemvalue="TestNG.TestHomepage" />
       </list>
     </recent_temporary>
   </component>
@@ -164,22 +178,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="396" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1592674027178" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1592688687557">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1592690515491">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592688687557" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1592688687557">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592690515491" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1592690515490">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592688687557" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1592688687557">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592690515490" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1592690515490">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592688687557" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1592688687557">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592690515490" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1592690515490">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592688687557" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592690515490" />
     <state x="184" y="7" key="SettingsEditor" timestamp="1592442667762">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
